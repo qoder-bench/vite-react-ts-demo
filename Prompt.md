@@ -1,13 +1,51 @@
-# 新需求
+# New Requirement
 
-调整app.tsx页面的布局为顶部导航栏、左侧菜单栏和底部信息栏，中间为内容区域。
+Adjust the app.tsx page layout to include top navigation bar, left sidebar menu, and bottom information bar, with content area in the middle.
 
-- 顶部导航栏包含应用名称、Logo和用户信息。
-- 左侧菜单栏包含导航链接，如首页、设置、帮助等。
-- 底部信息栏主要是呈现操作后的提示信息：左侧为文本提示，最右侧显示一个icon，点击后展现最近的提示信息。
-- 内容区域应支持动态加载不同的页面内容
+- Top navigation bar contains application name, Logo, and user information.
+- Left sidebar menu contains navigation links, such as Home, Settings, Help, etc.
+- Bottom information bar mainly displays prompt information after operations: text prompt on the left, and an icon on the far right. Click to show recent prompt information.
+- Content area should support dynamic loading of different page content
 
-增加两个内容区域的组件：
+Add two content area components:
 
-- Dashboard组件(默认)：显示应用的主要统计数据和图表。
-- 设置组件：显示系统的配置项选项，如样色、通知设置等。
+- Dashboard component (default): Displays the main statistics and charts of the application.
+- Settings component: Displays system configuration options, such as theme, notification settings, etc.
+
+
+# New Requirement
+
+Implement a complete "Collaborative Whiteboard" feature module:
+
+Functional Requirements:
+
+Multi-user real-time collaborative drawing board
+
+Support basic shapes: lines, rectangles, circles, freehand brush
+Support shape selection, move, delete, undo/redo
+Real-time display of different users' cursor positions (display username)
+WebSocket Real-time Communication
+
+Implement client-side WebSocket connection management
+Implement real-time broadcast and reception of drawing operations
+Handle connection disconnection and reconnection logic
+State Management
+
+Use Redux Toolkit to manage whiteboard state
+Manage online user list
+Operation history (support undo/redo)
+UI Interaction
+
+Toolbar: Select drawing tools, colors, line thickness
+Sidebar: Display online user list
+Responsive design, support desktop and tablet
+Technical Requirements:
+
+Use Canvas API or SVG to implement drawing
+Customize WebSocket message protocol (JSON format)
+Use TypeScript strict mode
+Component-based design, reasonable separation of responsibilities
+Error handling and edge case handling
+No need to implement backend service, can use Mock WebSocket or Socket.io client.
+
+
