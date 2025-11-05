@@ -1,4 +1,4 @@
-# New Requirement
+# New Requirement 1
 
 Adjust the app.tsx page layout to include top navigation bar, left sidebar menu, and bottom information bar, with content area in the middle.
 
@@ -13,7 +13,7 @@ Add two content area components:
 - Settings component: Displays system configuration options, such as theme, notification settings, etc.
 
 
-# New Requirement
+# New Requirement 2
 
 Implement a complete "Collaborative Whiteboard" feature module:
 
