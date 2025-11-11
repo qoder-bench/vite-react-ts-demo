@@ -1,5 +1,9 @@
-# New Requirement 1
+## Task 1
 
+**Task Type:** Feature Implementation
+
+**Prompt:**
+```
 Adjust the app.tsx page layout to include top navigation bar, left sidebar menu, and bottom information bar, with content area in the middle.
 
 - Top navigation bar contains application name, Logo, and user information.
@@ -11,10 +15,15 @@ Add two content area components:
 
 - Dashboard component (default): Displays the main statistics and charts of the application.
 - Settings component: Displays system configuration options, such as theme, notification settings, etc.
+```
+---
 
+## Task 2
 
-# New Requirement 2
+**Task Type:** Feature Implementation
 
+**Prompt:**
+```
 Implement a complete "Collaborative Whiteboard" feature module:
 
 Functional Requirements:
@@ -47,5 +56,5 @@ Use TypeScript strict mode
 Component-based design, reasonable separation of responsibilities
 Error handling and edge case handling
 No need to implement backend service, can use Mock WebSocket or Socket.io client.
-
+```
 
