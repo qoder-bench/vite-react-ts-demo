@@ -1,127 +1,127 @@
 # Vite React TypeScript Demo
 
-一个基于 [Vite](https://vite.dev/)、[React](https://react.dev/) 和 [TypeScript](https://www.typescriptlang.org/) 的现代化前端应用示例项目。展示了如何使用 Vite 构建工具快速开发 React 应用。
+A modern frontend application demo project based on [Vite](https://vite.dev/), [React](https://react.dev/), and [TypeScript](https://www.typescriptlang.org/). Demonstrates how to quickly develop React applications using the Vite build tool.
 
-## 技术栈
+## Tech Stack
 
-- **Vite**: 7.1.7 (构建工具)
+- **Vite**: 7.1.7 (Build tool)
 - **React**: 19.1.1
 - **TypeScript**: 5.9.3
 - **Tailwind CSS**: 4.1.16
 - **ESLint**: 9.36.0
 
-## 项目结构
+## Project Structure
 
 ```
 vite-react-ts-demo/
 ├── src/
-│   ├── App.tsx           # 主应用组件
-│   ├── main.tsx          # 应用入口
-│   ├── index.css         # 全局样式
-│   └── assets/           # 静态资源
-├── public/               # 公共静态文件
-├── index.html            # HTML 模板
-├── vite.config.ts        # Vite 配置
-├── tsconfig.json         # TypeScript 配置
-├── tailwind.config.js    # Tailwind CSS 配置（如存在）
+│   ├── App.tsx           # Main application component
+│   ├── main.tsx          # Application entry point
+│   ├── index.css         # Global styles
+│   └── assets/           # Static assets
+├── public/               # Public static files
+├── index.html            # HTML template
+├── vite.config.ts        # Vite configuration
+├── tsconfig.json         # TypeScript configuration
+├── tailwind.config.js    # Tailwind CSS configuration (if present)
 └── README.md
 ```
 
-## 功能特性
+## Features
 
-- 极速的开发服务器
-- 热模块替换 (HMR)
-- TypeScript 支持
-- Tailwind CSS 集成
-- 代码分割和优化
-- 现代化的构建工具链
+- Lightning-fast development server
+- Hot Module Replacement (HMR)
+- TypeScript support
+- Tailwind CSS integration
+- Code splitting and optimization
+- Modern build toolchain
 
-## 快速开始
+## Quick Start
 
-### 前置要求
+### Prerequisites
 
-- Node.js 18 或更高版本
-- npm, yarn, 或 pnpm
+- Node.js 18 or higher
+- npm, yarn, or pnpm
 
-### 安装和运行
+### Installation and Running
 
 ```bash
-# 安装依赖
+# Install dependencies
 npm install
-# 或
+# Or
 yarn install
-# 或
+# Or
 pnpm install
 
-# 运行开发服务器
+# Run development server
 npm run dev
-# 或
+# Or
 yarn dev
-# 或
+# Or
 pnpm dev
 ```
 
-应用将在 `http://localhost:5173` 启动（Vite 默认端口）。
+The application will start at `http://localhost:5173` (Vite default port).
 
-### 构建和预览
+### Build and Preview
 
 ```bash
-# 构建生产版本
+# Build production version
 npm run build
 
-# 预览生产构建
+# Preview production build
 npm run preview
 
-# 运行 Lint
+# Run Lint
 npm run lint
 ```
 
-## 项目特点
+## Project Features
 
-### Vite 优势
+### Vite Advantages
 
-- **极速启动**: 使用原生 ESM，无需打包
-- **快速 HMR**: 基于 ESM 的 HMR，保持应用状态
-- **优化构建**: 使用 Rollup 进行生产构建优化
+- **Lightning-Fast Startup**: Uses native ESM, no bundling required
+- **Fast HMR**: ESM-based HMR that maintains application state
+- **Optimized Build**: Uses Rollup for production build optimization
 
 ### React 19
 
-使用最新的 React 19 特性：
-- 改进的并发渲染
-- 新的 Hooks
-- 更好的 TypeScript 支持
+Uses the latest React 19 features:
+- Improved concurrent rendering
+- New Hooks
+- Better TypeScript support
 
 ### Tailwind CSS
 
-使用 Tailwind CSS 4.x 进行样式设计：
-- 通过 Vite 插件集成
-- JIT 编译
-- 实用优先的 CSS
+Uses Tailwind CSS 4.x for styling:
+- Integrated via Vite plugin
+- JIT compilation
+- Utility-first CSS
 
-## 开发
+## Development
 
-### 热模块替换
+### Hot Module Replacement
 
-Vite 提供极快的 HMR：
-- 修改 React 组件立即更新
-- 保持组件状态
-- 样式更改即时生效
+Vite provides extremely fast HMR:
+- React component changes update immediately
+- Maintains component state
+- Style changes apply instantly
 
-### TypeScript 配置
+### TypeScript Configuration
 
-项目配置了严格的 TypeScript：
-- 类型检查
-- 路径别名支持
-- React 类型定义
+Project configured with strict TypeScript:
+- Type checking
+- Path alias support
+- React type definitions
 
-### 代码质量
+### Code Quality
 
-- **ESLint**: 代码 linting 和格式化
-- **TypeScript**: 编译时类型检查
+- **ESLint**: Code linting and formatting
+- **TypeScript**: Compile-time type checking
 
-## 参考资源
+## References
 
-- [Vite 文档](https://vite.dev/)
-- [React 文档](https://react.dev/)
-- [TypeScript 文档](https://www.typescriptlang.org/)
-- [Tailwind CSS 文档](https://tailwindcss.com/)
+- [Vite Documentation](https://vite.dev/)
+- [React Documentation](https://react.dev/)
+- [TypeScript Documentation](https://www.typescriptlang.org/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/)
